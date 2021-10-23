@@ -107,3 +107,14 @@ a:hover {
     background-color: #40485c;
 
 }
+
+h3 {
+    color: rgb(248, 233, 204);
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top:50px;
+    margin-bottom: -40px;
+}
