@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         <meta charset= "UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <link  rel="stylesheet" href="style.css" type="text/CSS">
         <title>Momo</title>
+        
     </head>
     <body>
         
@@ -18,11 +20,42 @@
         <h1 class="header">What are you feeling at this moment?</h1>
        
         <div class="main">
-            <button class="greed">Greed</button>
-            <button class="euphoria">Euphoria</button>
-            <button class="fear">Fear</button>
+            <button data-js="open" class="greed">Greed</button>
+            <button data-js="open2" class="euphoria">Euphoria</button>
+            <button data-js="open3" class="fear">Fear</button>
+
         </div>
 
+        <div class="fullscreen-container">
+        <div class="popup">
+            <h2>You are experiencing greed!</h2> <br>
+            <br>
+            <p><br> - Lorem ipsum dolor sit amet consectetur, adipiscing elit lacinia mus, sapien nibh imperdiet tempus. <br> - Vitae massa semper mi sagittis a cum cursus fusce per, gravida tellus metus purus litora nam ultricies donec, nibh dis ligula ad facilisi penatibus condimentum aenean.</p>
+        
+            <p>Aliquet odio id vulputate ad sodales blandit tempor, neque facilisi turpis dis curabitur ac velit potenti, montes bibendum pretium lacinia lobortis aenean. Orci integer eu tincidunt  scelerisque iaculis, porta elementum sagittis proin penatibus magna tempor.</p> <br>
+            <button class="close" name="close">Got it!</button>
+        </div>
+        </div>
+
+        <div class="popup2">
+            <h2>You are experiencing euphoria!</h2> <br>
+            <br>
+            <p><br>Lorem ipsum dolor sit amet consectetur, adipiscing elit lacinia mus, sapien nibh imperdiet tempus. Vitae massa semper mi sagittis a cum cursus fusce per, gravida tellus metus purus litora nam ultricies donec, nibh dis ligula ad facilisi penatibus condimentum aenean.</p>
+        
+            <p>Aliquet odio id vulputate ad sodales blandit tempor, neque facilisi turpis dis curabitur ac velit potenti, montes bibendum pretium lacinia lobortis aenean. Orci integer eu tincidunt  scelerisque iaculis, porta elementum sagittis proin penatibus magna tempor.</p> <br>
+            <button class="close" name="close">Got it!</button>
+        </div>
+
+        <div class="popup3">
+            <h2>You are experiencing fear!</h2> <br>
+            <br>
+            <p><br>Lorem ipsum dolor sit amet consectetur, adipiscing elit lacinia mus, sapien nibh imperdiet tempus. Vitae massa semper mi sagittis a cum cursus fusce per, gravida tellus metus purus litora nam ultricies donec, nibh dis ligula ad facilisi penatibus condimentum aenean.</p>
+        
+            <p>Aliquet odio id vulputate ad sodales blandit tempor, neque facilisi turpis dis curabitur ac velit potenti, montes bibendum pretium lacinia lobortis aenean. Orci integer eu tincidunt  scelerisque iaculis, porta elementum sagittis proin penatibus magna tempor.</p> <br>
+            <button class="close" name="close">Got it!</button>
+        </div>
+        
+       
         <div class="footer">
             <footer>© Copyright trading</footer>
         </div>
