@@ -29,7 +29,6 @@ function popupOpenClose(popup) {
 
 $(document).ready(function () {
 	$("[data-js=open]").on("click", function() {
-        $(".fullscreen-container").fadeTo(200, 1);
 		popupOpenClose($(".popup"));
         
 	});
