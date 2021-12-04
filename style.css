@@ -166,13 +166,3 @@ h3 {
     background-color: rgba(71, 89, 255, 0.267);
 }
 
-.fullscreen-container {
-    display: none;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    backdrop-filter: blur(2px);
-  }
